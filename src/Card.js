@@ -15,7 +15,7 @@ const Card = ({card, feedback, index, onClick}) => (
 
 Card.propTypes = {
     card: PropTypes.string.isRequired,
-    feedbkac: PropTypes.oneOf([
+    feedback: PropTypes.oneOf([
         'visible',
         'hidden',
         'justMatched',
